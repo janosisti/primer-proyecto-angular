@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+/* Modern Reset CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Incluye bordes y paddings en el tamaño total */
+}
+
+html {
+  scroll-behavior: smooth; /* Suaviza el scroll entre secciones */
+  font-size: 100%; /* Asegura que 1rem = 16px */
+}
+
+body {
+  line-height: 1.5; /* Mejora la legibilidad */
+  font-family: Arial, sans-serif; /* Define una fuente predeterminada */
+}
+
+img,
+picture {
+  max-width: 100%; /* Asegura que las imágenes no se salgan del contenedor */
+  display: block;
+}
+
+input, button, textarea, select {
+  font: inherit; /* Usa la misma tipografía que el resto de la página */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Elimina los colores predeterminados de los enlaces */
+}
+
+ul, ol {
+  list-style: none; /* Elimina los estilos de listas */
+}
+
+body{
+    background-color: rgb(99, 99, 121);
+
+}

@@ -1,0 +1,19 @@
+<!-- header.component.html -->
+<header>
+    <div class="logo">
+      <img src="/assets/img/logo.svg" alt="123">
+
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#benefits">Home</a></li>
+        <li><a href="#testimonials">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class= "wb" (mouseenter)="toggleBeat(true)" (mouseleave)="toggleBeat(false)">
+    <span></span><span></span>
+      Wallet Connect<i class="fa-solid fa-wallet" [class.latido]="isBeating"></i>
+    </button>
+    
+  </header>

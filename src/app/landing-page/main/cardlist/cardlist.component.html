@@ -1,0 +1,25 @@
+<div class="cards-container">
+  @for(card of cards; track card.id){
+  <div class="card">
+    <div class="price">
+      {{ card.precio }}
+      <img
+        class="img-pricesrc"
+        ngSrc="/assets/img/eth.png"
+        width="10"
+        height="10"
+      />
+    </div>
+    <div class="image-container">
+      <img
+        class="img-principal"
+        ngSrc="{{ card.imgUrl }}"
+        alt="{{ card.nombre }}"
+        width="100"
+        height="100"
+      />
+    </div>
+    <p>{{ card.description }}</p>
+  </div>
+  }
+</div>
