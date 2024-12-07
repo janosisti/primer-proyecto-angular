@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild, ElementRef, } from '@angular/core';
 import * as THREE from 'three';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from './GLTFLoader';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 @Component({
   selector: 'app-three-model',
   standalone: true,
