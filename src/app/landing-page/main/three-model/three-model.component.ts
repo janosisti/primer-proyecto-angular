@@ -1,7 +1,7 @@
-import { Component, OnInit, ViewChild, ElementRef, HostListener } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, } from '@angular/core';
 import * as THREE from 'three';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 @Component({
   selector: 'app-three-model',
   standalone: true,
@@ -41,7 +41,7 @@ export class ThreeModelComponent implements OnInit {
         model.scale.set(4,4,4); 
         model.position.set(0, 0, 0); 
         model.rotation.set(0,-Math.PI/2,0);
-        
+
         // Añadir el modelo a la escena
         scene.add(model);
 

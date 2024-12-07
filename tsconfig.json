@@ -24,8 +24,9 @@
     ],
     "baseUrl": "./",
     "paths": {
-      "@imgs/*":["/assets/img/*"]
-
+      "@imgs/*":["/assets/img/*"],
+      "three": ["node_modules/three"],
+      "three/*": ["node_modules/three/*"]
     }
   },
   "angularCompilerOptions": {
