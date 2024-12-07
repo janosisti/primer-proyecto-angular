@@ -1,4 +1,4 @@
-/* header.component.css */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -6,8 +6,8 @@ header {
   padding: 10px 20px;
   background-color: #06182c;
   color: white;
-  max-width: 1080px; /* Ajusta según el diseño que desees */
-  margin: 0 auto; /* Centra el header en la pantalla */
+  max-width: 1080px; 
+  margin: 0 auto; 
   width: 100%;
   max-width: 900px;
   height: 9vh;
@@ -24,8 +24,8 @@ nav ul {
   gap: 20px;
 }
 nav {
-  position: absolute; /* Permite centrar el nav */
-  left: 50%; /* Lo lleva al centro horizontal */
+  position: absolute; 
+  left: 50%; 
   transform: translateX(-50%);
 }
 nav li {

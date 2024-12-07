@@ -34,7 +34,7 @@
   } 
   h1 {
     text-align: left;
-    font-size: 2rem; /* Tamaño grande para el título principal */
+    font-size: 2rem; 
   }
   h2 {
     
@@ -51,7 +51,7 @@
   }
   
   h3 span {
-    color: #0060B9; /* Azul para los elementos destacados */
+    color: #0060B9; 
   }
   
 
@@ -88,7 +88,7 @@
   }
 
   canvas {
-    max-width: 500px; /* Ajuste el tamaño del renderizado al 100% del contenedor */
+    max-width: 500px; 
     max-height: 500px;
     object-fit: contain; 
   }
