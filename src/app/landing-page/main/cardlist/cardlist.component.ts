@@ -13,29 +13,29 @@ cards= [
   {
     id:1,
     nombre:"nombre1",
-    precio: 999,
+    precio: 0.075,
     imgUrl:"/assets/img/mono1.png",
     description:'descripcion'
   },
   {
     id:2,
     nombre:"nombre2",
-    precio: 999,
-    imgUrl:"https://img.freepik.com/free-vector/gorilla-head-monochrome-style_225004-463.jpg?t=st=1733494746~exp=1733498346~hmac=0f6afcc9ae5e975d395e535e965bfc0013256a5b07c41a6d178923eafb5ee0df&w=826",
+    precio: 0.087,
+    imgUrl:"/assets/img/mono2.png",
     description:'descripcion'
   },
   {
     id:3,
     nombre:"nombre3",
-    precio: 999,
-    imgUrl:"https://img.freepik.com/free-vector/gorilla-head-monochrome-style_225004-463.jpg?t=st=1733494746~exp=1733498346~hmac=0f6afcc9ae5e975d395e535e965bfc0013256a5b07c41a6d178923eafb5ee0df&w=826",
+    precio: 0.102,
+    imgUrl:"/assets/img/mono3.png",
     description:'descripcion'
   },
   {
     id:4,
     nombre:"nombre4",
-    precio: 999,
-    imgUrl:"https://img.freepik.com/free-vector/gorilla-head-monochrome-style_225004-463.jpg?t=st=1733494746~exp=1733498346~hmac=0f6afcc9ae5e975d395e535e965bfc0013256a5b07c41a6d178923eafb5ee0df&w=826",
+    precio: 0.763,
+    imgUrl:"/assets/img/mono4.png",
     description:'descripcion'
   }
 ]
